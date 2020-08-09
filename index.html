@@ -81,13 +81,13 @@
 					<!-- The slideshow -->
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img class="image main" src="images/grossstadtdinner.png" alt="Los Angeles">
+							<img class="image main" src="images/grossstadtdinner.png">
 						</div>
 						<div class="carousel-item">
-							<img class="image main" src="images/grossstadtdinner2.png" alt="Chicago">
+							<img class="image main" src="images/grossstadtdinner2.png">
 						</div>
 						<div class="carousel-item">
-							<img class="image main" src="images/grossstadtdinner3.png" alt="New York">
+							<img class="image main" src="images/grossstadtdinner3.png">
 						</div>
 					</div>
 
@@ -125,7 +125,35 @@
 					</header>
 					<p><b>Find me a drink</b> is a mobile app that shows you the next bar in your area.
 					</p>
-					<img src="images/findmeadrink.gif" style="width:80%">
+					<!-- <img src="images/findmeadrink_android.gif" style="width:70%"> -->
+					<div id="findmeadrink" class="carousel slide" data-ride="carousel" data-interval="10000">
+
+						<!-- Indicators -->
+						<ul class="carousel-indicators">
+							<li data-target="#findmeadrink" data-slide-to="0" class="active"></li>
+							<li data-target="#findmeadrink" data-slide-to="1"></li>
+						</ul>
+	
+						<!-- The slideshow -->
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="image main" src="images/findmeadrink_android.gif" alt="Android" style="width:70%; margin-left: auto; margin-right: auto">
+							</div>
+							<div class="carousel-item">
+								<img class="image main" src="images/findmeadrink_ios.gif" alt="iOS" style="width:70%; margin-left: auto; margin-right: auto">
+							</div>
+						</div>
+	
+						<!-- Left and right controls -->
+						<a class="carousel-control-prev" href="#findmeadrink" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</a>
+						<a class="carousel-control-next" href="#findmeadrink" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+	
+					</div>
+					
 					<ul class="actions special" style="margin-top:20px">
 						<li><a href="https://github.com/AndreasLichtsinn/findmeadrink2/" class="button icon brands fa-github">See
 								code</a></li>

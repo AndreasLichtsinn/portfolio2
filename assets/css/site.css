@@ -4,7 +4,6 @@ img.techstack {
     display:inline-block;
     margin:5px 20px;
     padding:5px;
-
 }
 
 @media screen and (max-width: 1280px) {
@@ -15,6 +14,7 @@ img.techstack {
         margin:5px 20px;
         padding:5px;
     }
+
 }
 
 .techstackcontainer{
